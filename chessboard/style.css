@@ -7,7 +7,7 @@
   width: 560px;
   /* We have to design columns and rows */
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(8, 1fr);
 }
 
 .box{
