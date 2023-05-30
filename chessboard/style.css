@@ -1,0 +1,24 @@
+/* style for chessboard */
+
+.container{
+  /* Everything in GRID starts with the line below */
+  display:grid;
+  /* We have to adjust the container size to the sum of chess boxes */
+  width: 560px;
+  /* We have to design columns and rows */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.box{
+  width: 70px;
+  height: 70px;
+}
+
+.white{
+  background-color: #f0d9b5;
+}
+
+.black{
+  background-color: #b58863;
+}
