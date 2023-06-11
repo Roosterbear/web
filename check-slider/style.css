@@ -1,0 +1,70 @@
+.labelSwitch{
+  font-size: 1.5rem;
+  color: #777;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.switch{
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+}
+
+/* Hides the HTML Input Checkbox */
+.switch input{
+  display: none;
+}
+/* ---------------------------- */
+
+.slider{
+  position: absolute;
+  cursor: pointer;
+  /* We need this to show the label */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* -------- */
+  background-color: rgb(143, 140, 140);
+  transition: .3s;
+}
+
+/* THIS IS THE WHITE BALL INSIDE */
+.slider:before{
+  position: absolute;
+  /* This is necessary to show the label */
+  content:"";
+  /* ---------------------------------- */
+  height:13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: .3s;
+}
+
+/* The next adjacent brother with class: slider */
+input:checked+.slider{
+  background-color: #1db954;
+}
+
+input:focus+.slider{
+  box-shadow: 0 0 1px #1db954;
+}
+
+input:checked+.slider:before{
+  transform: translateX(13px);
+}
+
+/* rounding the external part of the switch */
+.slider.round{
+  border-radius: 17px;
+}
+
+/* rounding the inner white element of the switch */
+.slider.round:before{
+  border-radius: 50%;
+}
+
