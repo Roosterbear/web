@@ -38,6 +38,7 @@ h1, h2, h3{
   font-weight:900;
   font-family: var(--secondaryFont);
   margin: calc(var(--separation)/2) 0;
+  color: var(--primaryColor);
 }
 
 h1{
