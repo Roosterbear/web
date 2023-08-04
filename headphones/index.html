@@ -14,9 +14,38 @@
   <header class="header">
     <div class="contenedor contenido-header">
       <div class="image-header">
-        <!-- snippet pic -->
+        <!-- snippet im -->
+        <picture>
+          <source 
+         sizes="1920w"
+            srcset="img/header.avif" 
+            type="image/avif"/>
+          <source 
+         sizes="1920w"
+            srcset="img/header.webp"  
+            type="image/webp"/>
+          <source 
+         sizes="1920w"
+            srcset="img/header.jpg"  
+            type="image/jpg"/>
+          <img loading="lazy" src="img/header.jpg" lazyalt="alt" width="1000" height="500" />
+        <picture>
+      </div>
+      <div class="texto-header">
+        <p class="tagline-producto">
+          Sonido Profesional
+        </p>
+        <h1 class="nombre-producto">TechPRO</h1>
+        <p class="descripcion-producto">
+          Los audífonos TechPRO consiguen la mejor fidelidad en reproducción de audio.
+          Al mismo tiempo nos brindan la mayor comodidad en audífonos ergonómicos con
+          una gran variedad de colores. Realizados para lograr la mayor resistencia en
+          cada uno de sus materiales.
+        </p>
+        <p class="precio-producto">Desde <span>$</span></p>
       </div>
     </div>
   </header>
+  
 </body>
 </html>
