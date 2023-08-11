@@ -11,8 +11,8 @@
 }
 
 .box{
-  width: 70px;
-  height: 70px;
+  width: 70px; /* 70*8 = 560*/
+  height: 70px; /* 70*8 = 560*/
 }
 
 .white{
