@@ -536,6 +536,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-6{
   height: 1.5rem;
 }
@@ -630,8 +634,16 @@ html{
 
 .car_buttons{
   position: absolute;
-  top: 85%;
+  top: 87%;
   left: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1024px){
+  .car_buttons{
+    flex-direction: row;
+  }
 }
 
 .btn{
@@ -655,11 +667,16 @@ html{
 }
 
 .inventory{
-  margin-left: 2rem;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.6;
   --tw-text-opacity: 1;
   color: rgb(57 60 65 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px){
+  .inventory{
+    margin-left: 3rem;
+  }
 }
 
 .down_svg{
@@ -670,4 +687,16 @@ html{
   display: block;
   height: 5rem;
   width: 100%;
+}
+
+@media (min-width: 768px){
+  .md\:hidden{
+    display: none;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:block{
+    display: block;
+  }
 }
