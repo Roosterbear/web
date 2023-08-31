@@ -661,3 +661,13 @@ html{
   --tw-text-opacity: 1;
   color: rgb(57 60 65 / var(--tw-text-opacity));
 }
+
+.down_svg{
+  position: absolute;
+  top: 91%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 5rem;
+  width: 100%;
+}
