@@ -1,0 +1,27 @@
+#app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+picture{
+  cursor: pointer;
+  user-select: none;
+  padding: 11px;
+}
+
+picture:hover{
+  transform: scale(1.03) translateY(-3px) rotate(3deg);
+}
+
+img{
+  width: 100px;
+  border-radius: 50%;
+}
+
+h2{
+  font-size: 1rem;
+  color: #777;
+  text-align: center;
+}
+.disabled{opacity: 0.5;}

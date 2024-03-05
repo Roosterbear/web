@@ -1,0 +1,28 @@
+ul{
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  padding: 7px;
+  border: 3px solid #666;
+  margin: 7px;
+  color: white;
+  list-style: none;
+  width: 300px;
+  height: 90vh;
+  line-height: 90vh;
+  text-align: center;
+  background: #004225;
+  font-weight: bold;
+}
+
+li:first-child{
+  background: #ffb000;
+  color: #123;
+}
+
+li:last-child{
+  background: #ff004d;
+  color: #eee;
+}

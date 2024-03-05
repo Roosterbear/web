@@ -1,0 +1,35 @@
+button{
+  display: block;
+  margin: 20px auto;
+  background: crimson;
+  color: white;
+  border: 0;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.popup-wrapper{
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+
+.popup{
+  font-family: Arial;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 10% auto;
+  padding: 20px;
+  background: white;
+  position: relative;
+}
+
+h1{color: #4f4f4f;}
+
+
+
