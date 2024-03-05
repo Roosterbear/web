@@ -1,0 +1,22 @@
+#progressBar{
+  width: 20rem;
+  height: 2rem;
+  border: 0.3rem solid #56a5eb;
+  padding: 2px;
+  margin: 0 auto;
+}
+
+#progressBarFull{
+  height: 2rem;
+  background-color: #56a5eb;
+  width: 0%;
+}
+
+#done{
+  margin: 0 auto;
+  font-size: 20px;
+  color: #56a5eb;
+  width: 100px;
+  margin-top: 5px;
+  font-weight: bold;
+}
